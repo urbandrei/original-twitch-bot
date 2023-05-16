@@ -1,7 +1,8 @@
 # original-twitch-bot
 This is the first twitch bot I made  <br>
 
-To use the bot, update global USR const with the lowercase username of the target streamer  <br>
+To use the bot, first install TMI.js, sqlite3, node-fetch, fs using npm install  <br>
+Update global USR const with the lowercase username of the target streamer  <br>
 Add a config.txt file to same directory with Oauth token from twitch (https://dev.twitch.tv/docs/irc/authenticate-bot/)  <br>
 Uncomment DB setup commands (noted in code) for first time running (recomment thereafter)  <br>
 
